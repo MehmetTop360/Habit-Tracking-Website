@@ -1,0 +1,63 @@
+:root {
+  --background-color: #2b2821;
+  --border-color: #624c3c;
+  --secondary-color: #e3cfb4;
+  --highlight-color: #b03a48;
+  --main-text-color: #e0c872;
+  --secondary-text-color: #243d5c;
+  --special-button-color: #5d7275;
+  --button-hover-color: #d4804d;
+  --third-color: #243d5c;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+#app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.basic-button,
+button {
+  background-color: var(--highlight-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: auto;
+  max-width: 90%;
+  text-align: center;
+}
+
+.basic-button:hover,
+button:hover {
+  background-color: var(--button-hover-color);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  #app {
+    padding: 10px;
+  }
+
+  .editable-input,
+  .habit-text {
+    max-width: calc(100% - 150px);
+  }
+}
