@@ -11,7 +11,7 @@ This project was made a solution for the **Module 2, Sprint 3** of Turing Colleg
 ## Features
 
 - **Habit Management**: This website allows users to seamlessly:
-  - **Add** habits to the calender.
+  - **Add** habits to the calendar.
   - **Edit** the name of existing habits.
   - **Stop** tracking a habit from a certain point onward.
   - **Delete** a habit entirely, removing all its daily records.
