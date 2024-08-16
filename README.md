@@ -2,6 +2,9 @@
 
 This project was made a solution for the **Module 2, Sprint 3** of Turing College's curriculum, this website provides an intuitive interface for users to manage and track their daily habits. A central theme of the project was to explore the capabilities of Vue.js, leveraging the power of Vue 3 combined with the Vite bundler for an efficient development experience.
 
+## Live version
+https://mt-habit-tracking.netlify.app
+
 ## Technologies
 - **Framework**: Vue 3
 - **Bundler**: Vite
